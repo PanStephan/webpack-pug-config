@@ -79,6 +79,6 @@ module.exports = {
       filename: 'styles.css',
     }),
     new MinifyPlugin(),
-    new HtmlWebpackPlugin({ filename: `index.html`, template: 'src/views/index.pug'),
+    new HtmlWebpackPlugin({ filename: `index.html`, template: 'src/views/index.pug'}),
   ]
 }
